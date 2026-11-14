@@ -1764,7 +1764,7 @@ function renderMapCard(keepMonth){
   sel.innerHTML=S.months.map((mo,i)=>{const c=chipsFor(mo);return `<option value="${i}">${fromJdn(mo.start).y}年${fromJdn(mo.start).m}月 ${c.length?c.map(x=>x.g.mark+PJ[x.p]).join(' '):'(吉方位なし)'}</option>`;}).join('');
   if(!keepMonth)S.mapSel=defaultMapMonth();
   sel.value=S.mapSel;sel.onchange=()=>{S.mapSel=+sel.value;drawMap();};
-  if(!MAP){MAP=L.map('map',{scrollWheelZoom:false});baseLayer().addTo(MAP);MAPG=L.layerGroup().addTo(MAP);MAP.on('click',e=>mapTap({lat:e.latlng.lat,lon:e.latlng.lng}));}
+  if(!MAP){MAP=L.map('map',{scrollWheelZoom:true});baseLayer().addTo(MAP);MAPG=L.layerGroup().addTo(MAP);MAP.on('click',e=>mapTap({lat:e.latlng.lat,lon:e.latlng.lng}));}
   drawMap(true);
 }
 function sectorPoly(p,R){
