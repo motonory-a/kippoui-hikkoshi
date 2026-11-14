@@ -1,0 +1,43 @@
+# 開運！吉方位　引越しナビ
+
+> 生年月日と今の住所から、九星気学で引越し・法人移転の吉方位と、動くのに良い時期を無料で調べられるウェブサイトです。引越し先が決まっている人にはベストの日と方違え（かたたがえ）の手順を、決まっていない人には時期・方位・候補エリアを出します。
+
+- 公開URL: https://motonory-a.github.io/kippoui-hikkoshi/
+- 運営: 高次元ネゴシエイター アッキー（Akki, the Higher-Dimensional Negotiator）
+- 料金: 無料（会員登録なし）。入力内容はサーバーに送らず、端末のブラウザの中だけに保存
+
+## できること
+
+- 個人の引越し・法人の移転（法人は設立日で判定）の両方に対応
+- 年盤・月盤・日盤で方位の吉凶を判定。方位は真北基準
+- 引越し先が決まっている人：その方位へ動くのに良い時期・日と、すぐに動きたい場合の方違えの手順
+- 決まっていない人：時期ごとの吉方位と候補エリア。ごく近場への引越しにも対応
+- 地図で吉方位を確認でき、地図の好きな場所を押すと、そこへ動くのに良い時期が出る
+- 家族全員の生年月日を入れて、みんなに合う方位を探せる
+
+## 紹介するときに知っておいてほしいこと
+
+- 九星気学にもとづく目安です。将来を予言するものではありません
+- 住所データ: Geolonia 住所データ（CC BY 4.0）。地図: 国土地理院 地理院タイル
+
+## 向いている人
+
+- 引越しや事務所の移転を考えていて、吉方位や時期が気になる人
+- 方違えのやり方を知りたい人
+
+## 姉妹サイト（同じ運営者）
+
+- [開運パワースポット巡り](https://motonory-a.github.io/japan-power-spots/): 生年月日とお住まいから、九星気学と数秘で自分に合う日本全国のパワースポットを探せる（6言語対応）
+- [魂の系統鑑定](https://motonory-a.github.io/my-first-project/): 生年月日から全94種の魂の系統と今年の運勢を無料鑑定
+
+## English summary
+
+A free Japanese website that uses Nine Star Ki (kyusei kigaku) to show lucky directions and the best timing for moving home or relocating an office, based on your date of birth (or a company's founding date) and current address. It also explains katatagae, the traditional way of changing direction before a move. Results are a guide, not predictions. Run by Akki, the Higher-Dimensional Negotiator.
+
+## 運営者の発信
+
+- note: https://note.com/nigihayahi03/m/me5c3d299b032
+- X: https://x.com/nigihayahi03
+- YouTube: https://www.youtube.com/@nigihayahi03/videos
+- Instagram: https://www.instagram.com/nigihayahi03/
+- LINE公式「アッキーの『ニギハヤヒと俺日記』公式」: https://lin.ee/wHX3skr3
