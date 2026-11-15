@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /ig/
 Allow: /
 Sitemap: https://motonory-a.github.io/kippoui-hikkoshi/sitemap.xml
