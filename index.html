@@ -11,6 +11,11 @@
 <meta property="og:title" content="開運！吉方位　引越しナビ">
 <meta property="og:description" content="いつ、どの方位へ動くか。九星気学で引越しのベストな日を無料で鑑定。">
 <meta name="theme-color" content="#0c1838">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="img/icon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="引越しナビ">
 <link rel="canonical" href="https://motonory-a.github.io/kippoui-hikkoshi/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="開運！吉方位　引越しナビ">
@@ -2152,5 +2157,6 @@ $('mapFull').onclick=()=>setMapFull(true);
 $('mapClose').onclick=()=>setMapFull(false);
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('mapWrap').classList.contains('full'))setMapFull(false);});
 </script>
+<script>if("serviceWorker" in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}try{if(matchMedia("(display-mode: standalone)").matches||navigator.standalone){gtag("event","open_from_homescreen");}}catch(e){}</script>
 </body>
 </html>
