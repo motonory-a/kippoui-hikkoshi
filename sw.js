@@ -1,5 +1,5 @@
 /* ホーム画面アプリ用。ページや文字は新しいものを優先(つながらない時だけ保存分)、画像は一度見たものを保存してすばやく出す */
-const VER = "kippoui-v1";
+const VER = "kippoui-v2";
 self.addEventListener("install", e => { e.waitUntil(caches.open(VER).then(c => c.addAll(["./"])).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith("kippoui-") && !k.startsWith(VER)).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", e => {
